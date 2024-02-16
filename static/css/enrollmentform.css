@@ -1,0 +1,58 @@
+.enrollment-form {
+    width: 60%;
+    padding: 2rem;
+    background-color: #fff6f1;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 8%;
+    display: flex;
+    box-shadow: 6px 10px 15px 6px rgb(208, 206, 206);
+}
+.hole-design {
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    justify-content: center;
+    gap: 8rem;
+}
+.hole {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 8px 10px 10px 10px rgb(208, 206, 206, 0.7) inset;
+}
+.enrollment-form .form {
+    width: 92%;
+}
+.enrollment-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.enrollment-form h1 {
+    color: #3586ef;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.enrollment-form form input,
+select {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff6f1;
+    font-size: 1.2rem;
+}
+.enrollment-form form button {
+    width: 20%;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: #3586ef;
+    border: none;
+    color: white;
+    align-self: flex-end;
+    cursor: pointer;
+}
